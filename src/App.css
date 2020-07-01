@@ -1,0 +1,25 @@
+#p-li{
+  position: relative;
+}
+
+#c-li{
+  position: absolute;
+  top:65px;
+  right: -50px;
+
+  background-color: darkslategray;
+  font-size: 1rem;
+  visibility: hidden;
+  transition: 1s;
+ 
+}
+
+#p-li:hover #c-li{
+  visibility: visible;
+
+}
+
+
+
+
+
